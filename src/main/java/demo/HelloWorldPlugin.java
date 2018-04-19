@@ -15,7 +15,6 @@ public class HelloWorldPlugin {
         
         CommandSpec myCommandSpec = CommandSpec.builder()
             .description(Text.of("Hello World Command"))
-            .permission("myplugin.command.helloworld")
             .executor(new HelloWorldCommand())
             .build();
 
